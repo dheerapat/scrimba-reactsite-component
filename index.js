@@ -10,6 +10,7 @@ Challenge:
   called "MainContent" and render inside Page as well.
 */
 
+// Header component
 function Header() {
     return (
         <header>
@@ -20,6 +21,7 @@ function Header() {
     )
 }
 
+// Footer component
 function Footer() {
     return (
         <footer>
@@ -28,6 +30,7 @@ function Footer() {
     )
 }
 
+// Content component
 function Content() {
     return (
         <div>
@@ -40,6 +43,7 @@ function Content() {
     )
 }
 
+// Combine all component together
 function Page() {
     return (
         <div>
